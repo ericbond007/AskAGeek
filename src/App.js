@@ -11,7 +11,7 @@ class App extends Component {
           <h2>Ask A Geek!</h2>
         </div>
         <p className="App-intro">
-          Welcome to Ask A Geek! Got a geek-y question? Ask it and I will think about answering you. No garuntees.
+          Welcome to Ask A Geek! Got a geek-y question? Ask it and I will think about answering you. No guarantees.
         </p>
       </div>
     );
