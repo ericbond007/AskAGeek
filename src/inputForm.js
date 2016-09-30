@@ -16,19 +16,19 @@ class Form extends Component {
                             <div className="input-group input-group-lg form-group">
                                 <label className="control-label col-sm-2" for="name">Name:</label>
                                 <div className="col-sm-10">
-                                    <input id="name" type="text" className="form-control" placeholder="Name" name="Name" />
+                                    <input id="name" type="text" className="form-control" placeholder="Name" name="Name" maxlength="255"/>
                                 </div>
                              </div>
                              
                              <div className="input-group input-group-lg form-group">
                                 <label className="control-label col-sm-2" for="email">Email:</label>
                                 <div className="col-sm-10">
-                                    <input id="email" className="form-control" type="email" placeholder="Email" name="email" />
+                                    <input id="email" className="form-control" type="email" placeholder="Email" name="email" maxlength="255"/>
                                 </div>
                             </div>
                             <div className="">
                                 <div className="">
-                                    <textarea className="form-control col-xs-12" rows="10" id="question" name="question"></textarea>
+                                    <textarea className="form-control col-xs-12" rows="10" id="question" name="question" maxlength="9999"></textarea>
                                 </div>
                             </div>
 
