@@ -28,7 +28,7 @@ class Form extends Component {
                             </div>
                             <div className="">
                                 <div className="">
-                                    <textarea className="form-control col-xs-12" rows="10" id="question"></textarea>
+                                    <textarea className="form-control col-xs-12" rows="10" id="question" name="question"></textarea>
                                 </div>
                             </div>
 
